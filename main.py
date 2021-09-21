@@ -18,7 +18,7 @@ rnn_model.set_percent(merger.get_percent())
 #  ITERATIVE TRANINGS
 # ====================
 # hyperparameters
-epochs = [2, 3, 6]
+epochs = [5, 10, 15, 20, 25, 30]
 
 for epo in epochs:
    rnn_model.run(
